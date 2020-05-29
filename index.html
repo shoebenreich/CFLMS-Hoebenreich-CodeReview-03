@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CodeReview 03</title>
+</head>
+<body>
+    <header>
+        <div id="top">
+            <div id="logobox"><img id="logo" src="img/logo.png" alt="Insurance Logo"></div>
+            <div id="fswdbox"><a href="http://codefactory.wien/"><img id="fswd" src="img/banner.png" alt="Banner1"></a></div>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Team</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="headline"><h1>Car insurance</h1></div>
+        <div id="wrapper">
+            <h2>Great coverage begins with a custom quote</h2>
+            <div class="fillIn">
+                <div class="box">
+                    <label for="name">Your name:</label>
+                    <br>
+                    <input type="text" name="name" id="name" class="input">
+                </div>
+                <div class="box">
+                    <label for="age">Age:</label>
+                    <br>
+                    <input type="number" name="age" id="age" class="input">
+                </div>
+            </div>
+            <div class="fillIn">
+                <div class="box">
+                    <label for="country">Country:</label>
+                    <br>
+                    <select name="country" id="country" class="input">
+                        <option value="">Austria</option>
+                        <option value="">Hungary</option>
+                        <option value="">Greece</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label for="horsepower">Horsepower of your car:</label>
+                    <br>
+                    <input type="number" name="horsepower" id="horsepower" class="input">
+                </div>
+            </div>
+            <div id="btn"><input type="button" value="Calculate" id="bttn"></div>
+        </div>
+    </main>
+    <div id="coverage">
+        <h3>Un-complicating car coverage</h3>
+        <p>Understanding your coverage options shouldn't be so hard.<br>
+        We'll guide you through available coverage types,<br>
+        starting with who and what is covered. </p>
+    </div>
+    <div id="types">
+        <div class="package">
+            <h4>What comes standard</h4>
+            <p>The coverage you need</p>
+            <ul>
+                <li>Bodily Injury Liability</li>
+                <li>Property Damage</li>
+                <li>Medical Payments</li>
+            </ul>
+            <hr>
+            <h5>Benefits</h5>
+            <h6>12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</h6>
+        </div>
+        <div class="package">
+            <h4>Add-on protection & coverage</h4>
+            <p>For more peace of mind</p>
+            <ul>
+                <li>Better Car Replacement</li>
+                <li>Towing & Labor</li>
+                <li>Rental Car Coverage</li>
+            </ul>
+            <hr>
+            <h5>Earned Benefits</h5>
+            <h6>Accident Forginess<sup>1</sup> | New Car <br>Replacement<sup>TM</sup></h6>
+        </div>
+    </div>
+    <footer>
+        <div id="f_nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Team</a></li>
+            </ul>
+        </div>
+        <div id="right"><img src="img/logo-inv.png" alt="logo" id="logo_inv"></div>
+        <div id="name"><p>&copy Sanja Höbenreich - CodeFactory 2020</p></div>
+    </footer>
+</body>
+</html>

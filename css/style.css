@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP", sans-serif; 
+}
+
+body {
+    width: 70%;
+    height: 100%;
+    margin: 0rem auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFF3F3;
+    width: 100%;
+    height: 10rem;
+}
+
+#top {
+    display: flex;
+    margin: 1rem;
+}
+
+#logobox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    height: 5rem;
+    margin-left:0.5rem;
+}
+  
+#logo {
+    width: 15rem;
+    height: 4rem;
+}
+  
+#fswdbox {
+    display: flex;
+    width: 75%;
+    height: 5rem;
+    justify-content: flex-end;
+}
+  
+#fswd {
+    width: 40rem;
+    height: 5rem;
+}
+  
+#navigation {
+    background-color: #8e1515;
+}
+
+#navigation > ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0.5rem;
+}
+      
+#navigation > ul > li {
+    margin: auto 1em;
+}
+      
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+      
+a:hover {
+    color: rgb(2, 2, 2);
+}
+
+main {
+    width: 100%;
+    height: 55em;
+    background-image: url(/img/traffic-332857_1920.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    margin-left: 2rem;
+}
+
+#wrapper {
+    position: relative;
+    margin: 2rem auto;
+    width: 90%;
+    height: 50rem;
+    background-color: rgba(255, 255, 255, 0.70);
+    border: 2px gray solid;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    width: 60%;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.fillIn {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 5rem;
+    margin: 2rem auto;
+}
+
+.box {
+    border: 2px solid blue;
+    width: 40%;
+}
+.input {
+    border: 2px solid red;
+    width: 100%;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#btn {
+    width: 25%;
+    height: 3rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#bttn {
+    color: white;
+    background-color: #339235;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2rem;   
+}
+
+#coverage {
+    overflow: hidden;
+    width: 100%;
+    height: 17rem;
+    background-color: #ddd;
+}
+
+#coverage > h3 {
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+#coverage > p {
+    
+    text-align: center;
+    width: 70%;
+    margin: 0rem auto;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#types {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 30rem;
+    margin: 0rem auto;
+
+}
+
+.package {
+    border: solid 1px rgb(190, 190, 190);
+    border-top: solid black 2px;
+    width: 40%;
+    height: 70%;
+    box-shadow:  2px 2px rgb(117, 117, 117);
+}
+
+.package > h4 {
+    color: #576b8f;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.package > p {
+    margin: 0rem auto 1rem 2rem;
+}
+
+.package > ul  li {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    list-style-image: url(/img/tick.png)
+}
+
+.package > hr {
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgba(78, 78, 78, 0.2);
+    height: 1px;
+    border: none;
+}
+
+.package > h5 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.package > h6 {
+    margin-left: 2rem;
+    width: 60%;
+    font-weight: normal;
+    font-size: 1rem;
+}
+footer {
+    height: 12rem;
+    width: 100%;
+    background-color: black;
+}
+
+#f_nav {
+    height: 20%;
+}
+
+#f_nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0.5rem;
+}
+  
+#f_nav > ul > li {
+    margin: auto 0.5rem;
+}
+  
+#f_nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+  
+#f_nav > ul > li > a:hover {
+    color: lightgray;
+}
+  
+#right {
+    display: flex;
+    justify-content: flex-end;
+    height: 60%;
+    margin-right: 1rem;
+}
+
+#name {
+    height: 20%;
+    color: white;
+    text-align: center;
+}
+
+#logo_inv {
+    margin: auto 0;
+    width: 15rem;
+    height: 60%;
+}
