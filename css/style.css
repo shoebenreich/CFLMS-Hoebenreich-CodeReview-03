@@ -97,7 +97,7 @@ h1 {
 #wrapper {
     position: relative;
     margin: 2rem auto;
-    width: 95%;
+    width: 90%;
     height: 50rem;
     background-color: rgba(255, 255, 255, 0.70);
     border: 2px gray solid;
@@ -275,4 +275,13 @@ footer {
     margin: auto 0;
     width: 15rem;
     height: 60%;
+}
+
+#answer {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
 }
