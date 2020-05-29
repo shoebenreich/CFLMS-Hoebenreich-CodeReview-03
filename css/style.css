@@ -1,419 +1,433 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Noto Sans JP", sans-serif; 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Noto Sans JP", sans-serif;
 }
 
 body {
-    width: 70%;
-    height: 100%;
-    margin: 0rem auto;
+	width: 70%;
+	height: 100%;
+	margin: 0rem auto;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #FFF3F3;
-    width: 100%;
-    height: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #fff3f3;
+	width: 100%;
+	height: 10rem;
 }
 
 #top {
-    display: flex;
-    margin: 1rem;
+	display: flex;
+	margin: 1rem;
 }
 
 #logobox {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 25%;
-    height: 5rem;
-    margin-left:0.5rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 25%;
+	height: 5rem;
+	margin-left: 0.5rem;
 }
-  
+
 #logo {
-    width: 15rem;
-    height: 4rem;
+	width: 15rem;
+	height: 4rem;
 }
-  
+
 #fswdbox {
-    display: flex;
-    width: 75%;
-    height: 5rem;
-    justify-content: flex-end;
+	display: flex;
+	width: 75%;
+	height: 5rem;
+	justify-content: flex-end;
 }
-  
+
 #fswd {
-    width: 40rem;
-    height: 5rem;
+	width: 40rem;
+	height: 5rem;
 }
-  
+
 #navigation {
-    background-color: #8e1515;
+	background-color: #8e1515;
 }
 
 #navigation > ul {
-    display: flex;
-    list-style: none;
-    justify-content: flex-start;
-    padding: 0.5rem;
+	display: flex;
+	list-style: none;
+	justify-content: flex-start;
+	padding: 0.5rem;
 }
-      
+
 #navigation > ul > li {
-    margin: auto 1em;
+	margin: auto 1em;
 }
-      
+
 a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
+	color: white;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: bold;
 }
-      
+
 a:hover {
-    color: rgb(2, 2, 2);
+	color: rgb(2, 2, 2);
 }
 
 main {
-    width: 100%;
-    height: 55em;
-    background-image: url(/img/traffic-332857_1920.jpg);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    padding-top: 1rem;
+	width: 100%;
+	height: 55em;
+	background-image: url("/img/traffic-332857_1920.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	padding-top: 1rem;
 }
 
 h1 {
-    font-size: 3rem;
-    color: white;
-    margin-left: 2rem;
+	font-size: 3rem;
+	color: white;
+	margin-left: 2rem;
 }
 
 #wrapper {
-    position: relative;
-    margin: 2rem auto;
-    width: 90%;
-    height: 50rem;
-    background-color: rgba(255, 255, 255, 0.70);
-    border: 2px gray solid;
+	position: relative;
+	margin: 2rem auto;
+	width: 90%;
+	height: 50rem;
+	background-color: rgba(255, 255, 255, 0.70);
+	border: 2px gray solid;
 }
 
 h2 {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    width: 60%;
-    font-size: 4rem;
-    font-weight: normal;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	width: 60%;
+	font-size: 4rem;
+	font-weight: normal;
 }
 
 .fillIn {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    height: 5rem;
-    margin: 2rem auto;
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	height: 5rem;
+	margin: 2rem auto;
 }
 
 .box {
-    width: 40%;
+	width: 40%;
 }
 .input {
-    width: 100%;
-    height: 3rem;
-    font-size: 2rem;
-    font-weight: bold;
+	width: 100%;
+	height: 3rem;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 #btn {
-    width: 25%;
-    height: 3rem;
-    margin: 2rem auto;
-    text-align: center;
+	width: 25%;
+	height: 3rem;
+	margin: 2rem auto;
+	text-align: center;
 }
 
 #bttn {
-    color: white;
-    background-color: #339235;
-    display: grid;
-    place-items: center;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 2rem;   
+	color: white;
+	background-color: #339235;
+	display: grid;
+	place-items: center;
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 2rem;
 }
 
 #coverage {
-    overflow: hidden;
-    width: 100%;
-    height: 17rem;
-    background-color: #ddd;
+	overflow: hidden;
+	width: 100%;
+	height: 17rem;
+	background-color: #ddd;
 }
 
 #coverage > h3 {
-    padding-top: 2.5rem;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 500;
+	padding-top: 2.5rem;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 500;
 }
 
 #coverage > p {
-    
-    text-align: center;
-    width: 70%;
-    margin: 0rem auto;
-    font-size: 2rem;
-    font-weight: 500;
+	text-align: center;
+	width: 70%;
+	margin: 0rem auto;
+	font-size: 2rem;
+	font-weight: 500;
 }
 
 #types {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
-    height: 30rem;
-    margin: 0rem auto;
-
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	height: 30rem;
+	margin: 0rem auto;
 }
 
 .package {
-    border: solid 1px rgb(190, 190, 190);
-    border-top: solid black 2px;
-    width: 45%;
-    height: 70%;
-    box-shadow:  2px 2px rgb(117, 117, 117);
+	border: solid 1px rgb(190, 190, 190);
+	border-top: solid black 2px;
+	width: 45%;
+	height: 70%;
+	box-shadow: 2px 2px rgb(117, 117, 117);
 }
 
 .package > h4 {
-    color: #576b8f;
-    font-size: 2rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
+	color: #576b8f;
+	font-size: 2rem;
+	margin-left: 2rem;
+	margin-top: 1rem;
 }
 
 .package > p {
-    margin: 0rem auto 1rem 2rem;
+	margin: 0rem auto 1rem 2rem;
 }
 
-.package > ul  li {
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-    list-style-image: url(/img/tick.png)
+.package > ul li {
+	margin-left: 3rem;
+	margin-bottom: 1rem;
+	list-style-image: url(/img/tick.png);
 }
 
 .package > hr {
-    width: 95%;
-    margin: 0 auto;
-    background-color: rgba(78, 78, 78, 0.2);
-    height: 1px;
-    border: none;
+	width: 95%;
+	margin: 0 auto;
+	background-color: rgba(78, 78, 78, 0.2);
+	height: 1px;
+	border: none;
 }
 
 .package > h5 {
-    margin-top: 1rem;
-    margin-left: 2rem;
-    font-size: 1rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	font-size: 1rem;
 }
 
 .package > h6 {
-    margin-left: 2rem;
-    width: 60%;
-    font-weight: normal;
-    font-size: 1rem;
-    color: grey;
+	margin-left: 2rem;
+	width: 60%;
+	font-weight: normal;
+	font-size: 1rem;
+	color: grey;
 }
 footer {
-    height: 12rem;
-    width: 100%;
-    background-color: black;
+	height: 12rem;
+	width: 100%;
+	background-color: black;
 }
 
 #f_nav {
-    height: 20%;
+	height: 20%;
 }
 
 #f_nav > ul {
-    display: flex;
-    list-style: none;
-    justify-content: flex-start;
-    padding: 0.5rem;
+	display: flex;
+	list-style: none;
+	justify-content: flex-start;
+	padding: 0.5rem;
 }
-  
+
 #f_nav > ul > li {
-    margin: auto 0.5rem;
+	margin: auto 0.5rem;
 }
-  
+
 #f_nav > ul > li > a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
+	color: white;
+	text-decoration: none;
+	font-size: 1rem;
 }
-  
+
 #f_nav > ul > li > a:hover {
-    color: lightgray;
+	color: lightgray;
 }
-  
+
 #right {
-    display: flex;
-    justify-content: flex-end;
-    height: 60%;
-    margin-right: 1rem;
+	display: flex;
+	justify-content: flex-end;
+	height: 60%;
+	margin-right: 1rem;
 }
 
 #copyright {
-    height: 20%;
-    color: white;
-    text-align: center;
+	height: 20%;
+	color: white;
+	text-align: center;
 }
 
 #logo_inv {
-    margin: auto 0;
-    width: 15rem;
-    height: 60%;
+	margin: auto 0;
+	width: 15rem;
+	height: 60%;
 }
 
 #answer {
-    margin-top: 5rem;
-    width: 100%;
-    text-align: center;
-    color: green;
-    font-size: 2rem;
-    font-weight: bold;
+	margin-top: 5rem;
+	width: 100%;
+	text-align: center;
+	color: green;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 #employeeOfTheMonth {
-    text-align: center;
-    width: 30%;
-    margin: 1rem auto;
-    height: 32rem;   
+	text-align: center;
+	width: 70%;
+	margin: 1rem auto;
+	height: 30rem;
 }
 
 #employeeOfTheMonth > h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #8e1515;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #8e1515;
 }
 
 #employees {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 15rem;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 15rem;
 }
 
 .photos {
-    width: 20%;
-    height: 15rem;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    border: 3px solid goldenrod;
+	width: 20%;
+	height: 15rem;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	border: 3px solid goldenrod;
+}
+
+#infos {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 
 #random {
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem auto;
+	display: flex;
+	justify-content: center;
+	height: 20rem;
+	width: 50%;
 }
+
+#infoAboutTrainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	font-size: 2rem;
+	height: 20rem;
+	width: 50%;
+}
+
 #rndbutton {
-    font-size: 1rem;
-    font-weight: 700;
-    background-color: #8e1515;
-    color: white;
+	font-size: 1rem;
+	font-weight: 700;
+	background-color: #8e1515;
+	color: white;
 }
-
-
 
 @media screen and (max-width: 480px) {
-    body {
-        width: 100%;
-    }
-    #top {
-        width: 50%;
-        margin: 1rem auto;
-    }
-    #logobox {
-        width: 100%;
-    }
-    #fswdbox {
-        display: none;
-    }
-    #navigation > ul {
-        justify-content: space-between;
-    }
-    h1{
-        font-size: 2rem;
-        text-align: center;
-        margin: 0;
-    }
-    h2 {
-        font-size: 1.5rem;
-    }
-    .fillIn {
-        width: 100%;
-        height: 5em;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    .box {
-        text-align: center;
-        height: 5rem;
-        width: 45%;
-    }
-    .input {
-        height: 2rem;
-        width: 100%;
-        font-size: 1rem;
-        margin: 1rem auto
-    }
-    #bttn {
-        font-size: 1.5rem;
-    }
-    #answer {
-
-        font-size: 1rem;
-    }
-    #wrapper {
-        height:40rem;
-    }
-    main {
-        height: 50rem;
-    }
-    #coverage {
-        display: none;
-    }
-    #types {
-        height: 55rem;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .package {
-        width: 80%;
-        height: 25rem;
-        margin: 0.5rem auto;
-    }
-    .package > h4 {
-        font-size: 1.5rem;
-    }
-    .package > p {
-        font-size: 0.5rem;
-    }
-    footer {
-        height: 10rem;
-    }
-    #f_nav > ul {
-        justify-content: space-between;
-    }
-    #right {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-    }
+	body {
+		width: 100%;
+	}
+	#top {
+		width: 50%;
+		margin: 1rem auto;
+	}
+	#logobox {
+		width: 100%;
+	}
+	#fswdbox {
+		display: none;
+	}
+	#navigation > ul {
+		justify-content: space-between;
+	}
+	h1 {
+		font-size: 2rem;
+		text-align: center;
+		margin: 0;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	.fillIn {
+		width: 100%;
+		height: 5em;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+	.box {
+		text-align: center;
+		height: 5rem;
+		width: 45%;
+	}
+	.input {
+		height: 2rem;
+		width: 100%;
+		font-size: 1rem;
+		margin: 1rem auto;
+	}
+	#bttn {
+		font-size: 1.5rem;
+	}
+	#answer {
+		font-size: 1rem;
+	}
+	#wrapper {
+		height: 40rem;
+	}
+	main {
+		height: 50rem;
+	}
+	#coverage {
+		display: none;
+	}
+	#types {
+		height: 55rem;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.package {
+		width: 80%;
+		height: 25rem;
+		margin: 0.5rem auto;
+	}
+	.package > h4 {
+		font-size: 1.5rem;
+	}
+	.package > p {
+		font-size: 0.5rem;
+	}
+	footer {
+		height: 10rem;
+	}
+	#f_nav > ul {
+		justify-content: space-between;
+	}
+	#right {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+	}
 }
