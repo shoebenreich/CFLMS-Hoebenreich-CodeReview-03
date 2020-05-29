@@ -27,6 +27,5 @@ let insurance;
         }
     }
 
-
 let button = document.getElementById("bttn");
 button.addEventListener("click", calculateInsurance, false);
