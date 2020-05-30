@@ -27,7 +27,7 @@ function randomizer() {
 		.image}.png); background-position: center; background-size: cover; border: goldenrod 1rem solid; border-radius: 50%;"></div>`;
 	info = document.getElementById('infoAboutTrainer');
 	info.innerHTML = `<div class="information"><b>Name</b>: ${trainerArray[randomNumber]
-		.name}</div><div class="information"><b>Proffesion</b>: ${trainerArray[randomNumber]
+		.name}</div><div class="information"><b>Profession</b>: ${trainerArray[randomNumber]
 		.profession}</div><div class="information"><b>Born in</b>: ${trainerArray[randomNumber]
 		.born}</div><div class="information"><b>Sex</b>: ${trainerArray[randomNumber].sex}</div>`;
 }
